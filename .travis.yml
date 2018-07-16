@@ -1,0 +1,9 @@
+language: "ruby"
+install:
+  - "gem install fpm"
+  - "gem install package_cloud"
+script:
+  - "./package.sh"
+notifications:
+  slack:
+    secure: "G52a0JsSUU2JIpeO/M1kryhijycUqcy7w6vhE7LusTxEtZ0dM71/FhBNqBBnApyVyjjMqnn5Tm72UQmtI+mxOUrs7vjN90sM14EbWppvTviEZGb1Lb/3bGPlrB/TDM+bAlzytA9yB9fdB3dOAVtCtj2zZl2/co0++DBQn/kKdM1jRKetoTilbsBRC2e3Uq+J+b10WZ7xGfxZIFUUwhMHrMAn76snUywygAkwM/wD9zee5dniL+BZORMGXngUYZiFtd2Uw2+xWsYVTQcAORJI7JE2ebK+hooZ0P+UBRpKkjE2rLNRdmYTIQlS1ET7lh6LsJSOKxZKIlNepPewsifKp0ZQgrNtXmJBU6RcrEXdkIzKnEIPkaNPoQghUw+MS8Yca1kW8UFd22GOhjdZdwMAp56mh/zt3GjDwwwqipjPkyin7G2WcpGm2RtW/R4pvaHEnmTU+fbrFSEes2DVe6QJy+IZ6nZfurWnfXW1e+Y4nb23SakEQuarCciTBXd69s+171iaXMRfBU36wgOzlPEwfakligu73C+lflcJqrrtPPb/AfgZpLQKp1iNNeJmo3/8Lltp2Hfq+uCProkvsVrq+Dmc1HiK4wei1z9NSskrNLOHu5atIS3UegTxWjieQlazkdl4bTYSdLeXz3/T7OhiTo8F9iOgsEkpZq2Hwpbjrq8="

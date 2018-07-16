@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Postman
+Comment=Postman is an API development environment and debugger.
+TryExec=postman
+Exec=postman
+Icon=postman
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;X-GNOME-NetworkSettings;Network;
