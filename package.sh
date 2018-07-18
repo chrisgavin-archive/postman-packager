@@ -49,7 +49,7 @@ fpm \
 if [ -z "${PACKAGECLOUD_TOKEN:-}" ]; then
 	>&2 echo "Not pushing the package as there is no token availiable."
 else
-	for release in "xenial" "yakkety" "zesty" "artful" "bionic"; do
+	for release in "xenial" "bionic"; do
 		>&2 echo "Pushing release ubuntu/$release."
 		release_status=0
 		push_status=`package_cloud push "chrisgavin/postman/ubuntu/$release" "./output/"*".deb" || release_status=$?`
